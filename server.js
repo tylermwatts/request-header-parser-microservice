@@ -23,6 +23,9 @@ app.get("/", function (req, res) {
 app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
+app.route("/api/whoami").get((req,res)=>{
+  var result = 
+})
 
 
 
